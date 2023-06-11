@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div>
+        <div className="page-container">
             <h4>My Projects</h4>
             <div>
                 <p>Image</p>

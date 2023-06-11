@@ -8,10 +8,12 @@ nav {
     flex-direction: column;
     width: 20em;
 }
+
 nav ul {
     text-align: right;
     padding-top: 2em;
 }
+
 nav ul li {
     padding-bottom: 1.5em;
     position: relative;
@@ -44,10 +46,6 @@ html, h3, main, nav, div {
     background-color: #15232e;
 }
 
-div {
-    padding: 15px 20px;
-}
-
 h3 {
     color: #61dbfb !important;
     letter-spacing: 2px;
@@ -59,6 +57,17 @@ p {
     color: white !important;
     font-size: 1.2em;
     text-align: right;
+}
+
+.page-container {
+    width: 50%;
+    overflow: hidden;
+}
+
+.menu-container {
+    width:50%;
+    float: left;
+    padding: 10% 12%;
 }
 
 
@@ -104,3 +113,4 @@ p {
         transform: none;
     }
 }
+
