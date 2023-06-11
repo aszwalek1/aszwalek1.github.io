@@ -75,6 +75,11 @@ h4 {
     font-size: 1.8em;
     letter-spacing: 0.1em;
 }
+.project-picture {
+    margin-top: -16em;
+    background-color: red;
+    margin-left: 24em;
+}
 
 .work-type {
     margin-top: 0%;

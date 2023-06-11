@@ -1,3 +1,5 @@
+import Picture from '../components/Picture';
+
 const Projects = () => {
     return (
         <div className="page-container">
@@ -10,6 +12,10 @@ const Projects = () => {
                 <p className="language">JavaScript&ensp;</p>
                 <p className="language">HAML&ensp;</p>
                 <p className="language">CSS</p>
+                <div>
+                    <Picture/>
+                </div>
+                
             </div>
 
             <div className="project">
@@ -17,6 +23,9 @@ const Projects = () => {
                 <p>Front-end</p>
                 <p>Java group assignment 2023</p>
                 <p className="language">Java</p>
+                <div>
+                    <Picture/>
+                </div>
             </div>
 
             <div className="project">
@@ -27,6 +36,8 @@ const Projects = () => {
                 <p className="language">TypeScript&ensp;</p>
                 <p className="language">Vite&ensp;</p>
                 <p className="language">CSS</p>
+                <Picture/>
+               
             </div>
 
         </div>
