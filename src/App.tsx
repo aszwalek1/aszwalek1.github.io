@@ -15,7 +15,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className='menu-container'>
+        <div className='logo'>
         <Logo />
+        </div>
+        
         <Navbar />
       </div>
       <Routes>

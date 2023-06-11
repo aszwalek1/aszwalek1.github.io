@@ -1,3 +1,11 @@
+html {
+    overflow: hidden;
+}
+
+.logo {
+    padding-bottom: 1.4em;
+}
+
 img {
     width: 150px;
     height: 100px;
@@ -52,11 +60,30 @@ h3 {
     font-size: 3em !important;
 }
 
-p {
-    padding-top: 8em;
-    color: white !important;
-    font-size: 1.2em;
-    text-align: right;
+h4 {
+    color: #61dbfb !important;
+    letter-spacing: 2px;
+    padding-top: 2em;
+    padding-bottom: 0.7em;
+}
+
+.project {
+    color: whitesmoke;
+}
+
+.project-title {
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+}
+
+.work-type {
+    margin-top: 0%;
+}
+
+.language {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 300;
 }
 
 .page-container {
