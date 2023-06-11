@@ -96,6 +96,17 @@ h4 {
     overflow: hidden;
 }
 
+#slide {
+    position: relative;
+    animation: moving 0.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving {
+    from {top: -60px;}
+    to {top: 0px;}
+}
+
 .menu-container {
     width:50%;
     float: left;
