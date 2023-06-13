@@ -3,7 +3,7 @@ import Picture from '../components/Picture';
 const Projects = () => {
     return (
         <div className="page-container" id='slide'>
-            <h4>Featured Projects</h4>
+            <h4 className="page-title">Featured Projects</h4>
             <div className="project" >
                 <p className="project-title">Software Hut</p>
                 <p className="work-type">Front-end</p>

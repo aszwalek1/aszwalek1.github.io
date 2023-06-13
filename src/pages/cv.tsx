@@ -1,10 +1,8 @@
 const CV = () => {
     return (
-        <div  className="page-container">
-            <h4>My CV</h4>
-            <div>
-                <p>CV</p>
-            </div>
+        <div  className="page-container" id="slide">
+            <h4 className="page-title">My CV</h4>
+            
         </div>
 
     );

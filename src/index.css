@@ -76,7 +76,8 @@ nav ul li a.active::after {
 .social-icons {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.7em;
+    margin-top: -3em;
 }
 
 .linkedin-icon, .github-icon {
@@ -119,25 +120,83 @@ nav ul li a.active::after {
     overflow: hidden;
 }
 
-/* slide animation */
-
-#slide {
-    position: relative;
-    animation: moving 0.8s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes moving {
-    from {top: -60px;}
-    to {top: 0px;}
-}
-
 .menu-container {
     width:50%;
     float: left;
     padding: 10% 12%;
 }
 
+/* About me */
+.languages {
+    color:#4f8aa5;
+}
+.language-bar {
+    height: 12px;
+    width: 70%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 0.7em;
+}
+
+.language-1 {
+    background-color: #bbeeff;
+    flex-basis: 45%;
+}
+.language-2 {
+    background-color: #80b3ca;
+    flex-basis: 25%;
+}
+.language-3 {
+    background-color:#4f8aa5;
+    flex-basis: 20%;
+}
+.language-4 {
+    background-color: #486876;
+    flex-basis: 10%;
+}
+
+.color-dots {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    color:#4f8aa5;
+}
+.right-language-dot {
+    margin-left: auto;
+}
+
+.color-dot-1, .color-dot-2, .color-dot-3, .color-dot-4 {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.top-language, .color-dot-1, .color-dot-2 {
+    margin-top: 1em;
+}
+
+.color-dot-1 {
+    background-color: #bbeeff;
+    margin-top: 0.2em; 
+    margin-right: 0.5em; 
+}
+.color-dot-2 {
+    background-color: #80b3ca;
+    margin-top: 0.3em; 
+    margin-left: 56%;
+}
+.color-dot-3 {
+    background-color:#4f8aa5;
+    margin-top: -0.8em; 
+    margin-right: 0.5em; 
+}
+.color-dot-4 {
+    background-color: #486876;
+    margin-top: -0.7em; 
+    margin-left: 77%;
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -170,7 +229,7 @@ nav ul li a.active::after {
         top: 0;
         left:0;
         height: 100%;
-        width: 100%;
+        width: 100vw;
         gap: 1.5rem;
         background-color: #61dbfb;
         color: white;
@@ -180,5 +239,116 @@ nav ul li a.active::after {
     .responsive-nav {
         transform: none;
     }
+
+    .menu-container {
+        position: sticky;
+    }
+    .page-title {
+        margin-top: 10em;
+    }
+
+    .color-dots {
+        display: none;
+    }
 }
 
+@media only screen and (min-width: 1024px) {
+    /* slide animation */
+
+    #slide {
+        position: relative;
+        animation: moving 0.8s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes moving {
+        from {top: -60px;}
+        to {top: 0px;}
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 1460px) {
+
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 54%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 75%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 52%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 74%;
+    }
+    
+}
+@media only screen and (max-width: 1350px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 50%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 74%;
+    }
+}
+@media only screen and (max-width: 1290px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 47%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 72%;
+    }
+}
+@media only screen and (max-width: 1210px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 45%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 70%;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 42%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 68%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 39%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 66%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .color-dot-2 {
+        margin-top: 0.3em; 
+        margin-left: 37%;
+    }
+    .color-dot-4 {
+        margin-top: -0.7em; 
+        margin-left: 64%;
+    }
+}

@@ -18,7 +18,6 @@ function App() {
         <div className='logo'>
         <Logo />
         </div>
-        
         <Navbar />
       </div>
       <Routes>
