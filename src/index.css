@@ -89,6 +89,8 @@ nav ul li a.active::after {
     width: 2em;
 }  
 
+/* projects */
+
 .project {
     color: whitesmoke;
 }
@@ -100,8 +102,7 @@ nav ul li a.active::after {
 
 .project-picture {
     margin-top: -16em;
-    background-color: red;
-    margin-left: 24em;
+    margin-left: 32em;
 }
 
 .work-type {
@@ -124,6 +125,10 @@ nav ul li a.active::after {
     width:50%;
     float: left;
     padding: 10% 12%;
+}
+
+.visit-github {
+    color: white;
 }
 
 /* About me */
@@ -157,14 +162,16 @@ nav ul li a.active::after {
 }
 
 .color-dots {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     width: 70%;
     color:#4f8aa5;
 }
 .right-language-dot {
     margin-left: auto;
+    padding-left: 0.2em;
+}
+
+.js {
+    margin-left: 8.3em !important;
 }
 
 .color-dot-1, .color-dot-2, .color-dot-3, .color-dot-4 {
@@ -179,25 +186,27 @@ nav ul li a.active::after {
 
 .color-dot-1 {
     background-color: #bbeeff;
-    margin-top: 0.2em; 
-    margin-right: 0.5em; 
+   
 }
 .color-dot-2 {
     background-color: #80b3ca;
-    margin-top: 0.3em; 
-    margin-left: 56%;
+    
 }
 .color-dot-3 {
     background-color:#4f8aa5;
-    margin-top: -0.8em; 
-    margin-right: 0.5em; 
+    
 }
 .color-dot-4 {
     background-color: #486876;
-    margin-top: -0.7em; 
-    margin-left: 77%;
+    
 }
 
+.about-me {
+    color: white;
+    font-size: 20px;
+    padding-right: 8%;
+    line-height: 2em;
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -247,9 +256,6 @@ nav ul li a.active::after {
         margin-top: 10em;
     }
 
-    .color-dots {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -266,89 +272,26 @@ nav ul li a.active::after {
         to {top: 0px;}
     }
 
+    .color-dots {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .dot {
+        margin-bottom: 14px;
+        
+    }
+    .color-dot-1, .color-dot-3 {
+        margin-right: 3px;
+    }
+    .color-dot-2, .color-dot-4 {
+        margin-left: 7em;
+    }
+    .right-language-dot {
+        margin-left: 0;
+        float: right;
+    }
     
 
-}
-
-@media only screen and (max-width: 1460px) {
-
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 54%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 75%;
-    }
-}
-@media only screen and (max-width: 1400px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 52%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 74%;
-    }
-    
-}
-@media only screen and (max-width: 1350px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 50%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 74%;
-    }
-}
-@media only screen and (max-width: 1290px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 47%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 72%;
-    }
-}
-@media only screen and (max-width: 1210px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 45%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 70%;
-    }
-}
-@media only screen and (max-width: 1180px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 42%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 68%;
-    }
-}
-@media only screen and (max-width: 1150px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 39%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 66%;
-    }
-}
-@media only screen and (max-width: 1100px) {
-    .color-dot-2 {
-        margin-top: 0.3em; 
-        margin-left: 37%;
-    }
-    .color-dot-4 {
-        margin-top: -0.7em; 
-        margin-left: 64%;
-    }
 }
