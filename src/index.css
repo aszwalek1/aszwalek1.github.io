@@ -93,20 +93,31 @@ nav ul li a.active::after {
 
 .project {
     color: whitesmoke;
+    margin-bottom: 3em;
 }
 
+.columns-container {
+    display: flex;
+}
+.projects-left-column {
+    width: 80em;
+}
+.projects-right-column {
+    display: flex;
+    flex-direction: column; 
+    gap: 3.5%;
+    margin-top: 6.5em;
+}
 .project-title {
     font-size: 1.8em;
     letter-spacing: 0.1em;
 }
 
 .project-picture {
-    margin-top: -16em;
-    margin-left: 32em;
-}
-
-.work-type {
-    margin-top: 0%;
+    width: 19.2em;
+    height: 12em;
+    display: block;
+    margin-right: 2em;
 }
 
 .language {
