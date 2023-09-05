@@ -32,14 +32,7 @@ const Projects = () => {
                         <p className="language">Python</p>
                     </div>
                     
-                    <div className="project">
-                        <p className="project-title">Personal Website</p>
-                        <p>Individual summer project</p>
-                        <p className="language">React&ensp;</p>
-                        <p className="language">TypeScript&ensp;</p>
-                        <p className="language">Vite&ensp;</p>
-                        <p className="language">CSS</p>
-                    </div>
+                 
 
                     <p className='visit-github'>Visit my Github to see the code</p>
                 </div>
@@ -53,9 +46,7 @@ const Projects = () => {
                     <div>
                         <SystemsDesign_Image/>
                     </div>
-                    <div>
-                        <SystemsDesign_Image/>
-                    </div>
+                    
                 </div>
             </div>
             

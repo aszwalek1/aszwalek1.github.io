@@ -23,13 +23,13 @@ const About = () => {
             </div>
             <br></br>
             <p className="about-me">My name is Alicja Szwalek and I am a third-year Computer Science student at The University of Sheffield. 
-                My primary interests have been 
+                My primary interests are
                 Software Design and Development, Text Processing and Bio-inspired Computing.
                 <br></br>
                 In my free time I learn game development to prepare for my next GameJam and volunteer at Siemens' Digital Innovation Zone to assist other students and small business owners in learning digital skills such as CAD Software (Solid Edge),
                  3D Scanning and Modelling, and IoT Software (MindSphere)
                  <br></br>
-                 I am currently searching for a software engineering graduate job
+                 I am currently seeking an an entry-level software engineer position to leverage my technical, analytical, and problem solving skills.
             </p>
 
         </div>
