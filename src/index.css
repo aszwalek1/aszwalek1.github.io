@@ -9,7 +9,7 @@ html, h3, main, nav, div {
 }
 
 .menu-container {
-    width:50%;
+    width:45%;
     float: left;
     padding: 10% 12%;
 }
@@ -104,28 +104,18 @@ nav ul li a.active::after {
     margin-bottom: 3em;
 }
 
-.columns-container {
-    display: flex;
-}
 .projects-left-column {
-    width: 80em;
+    position: relative;
 }
-.projects-right-column {
-    display: flex;
-    flex-direction: column; 
-    gap: 3.5%;
-    margin-top: 6.5em;
+
+.project-picture-2 {
+    position: absolute;
+    
 }
+
 .project-title {
     font-size: 1.8em;
     letter-spacing: 0.1em;
-}
-
-.project-picture {
-    width: 19.2em;
-    height: 12em;
-    display: block;
-    margin-right: 2em;
 }
 
 .language {
@@ -256,53 +246,6 @@ nav ul li a.active::after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1024px) {
 
     nav ul li a:hover,
@@ -390,3 +333,55 @@ nav ul li a.active::after {
     
 
 }
+
+@media only screen and (min-width: 1200px) {
+    .columns-container {
+        display: flex;
+    }
+    .projects-left-column {
+        width: 100%;
+        padding-left: -10em;
+    }
+    .project-picture {
+        width: 19.2em;
+        height: 12em;
+        display: block;
+        margin-right: 2em;
+        margin-top: 7.2em;
+    }
+    
+    .project-picture-2 {
+        margin-top: 12.1em;
+    }
+    
+    .project-picture-3 {
+        margin-top: 8em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .project-picture {
+        opacity: 0;
+        height: 1px;
+    }
+}
+
+/* @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .project-picture-2 {
+        margin-top: 23.5em;
+    }
+    
+    .project-picture-3 {
+        margin-top: 22.2em;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+    .project-picture-2 {
+        margin-top: 23.5em;
+    }
+    
+    .project-picture-3 {
+        margin-top: 22.2em;
+    }
+} */
